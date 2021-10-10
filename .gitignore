@@ -1,0 +1,12 @@
+# Local .vagrant directories
+**/.vagrant/*
+
+# All json are created as a part of exersice
+*.json
+
+# Don't store pem or csr
+*.pem
+*.csr
+
+# log files
+*.log
