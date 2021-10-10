@@ -2,7 +2,7 @@ BOX_IMAGE = "ubuntu/bionic64"
 MASTER_COUNT = 2
 WORKER_COUNT = 3
 POD_CIDR = "172.18.0.0/16"
-API_ADV_ADDRESS = "10.8.8.10"
+#API_ADV_ADDRESS = "10.8.8.10"
 
 Vagrant.configure("2") do |config|
   config.vm.box = BOX_IMAGE
